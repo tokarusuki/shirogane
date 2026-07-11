@@ -1,81 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kaoru Shirogane</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Kaoru Shirogane — Official Site</title>
+<meta name="description" content="Official website for Kaoru Shirogane (白銀 カオル), a Japanese UTAU voicebank.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=New+Tegomin&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
+<body data-page="home">
+<div class="moon-mark" aria-hidden="true"></div>
 
-<body>
-
-<header>
-
-<h1>Kaoru Shirogane</h1>
-
-<nav>
-
-<a href="index.html">Home</a>
-<a href="character.html">Character</a>
-<a href="voicebank.html">Voicebank</a>
-<a href="download.html">Download</a>
-<a href="terms.html">Terms</a>
-
-</nav>
-
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="nav-brand">
+      <span class="hanko" aria-hidden="true">銀</span>
+      <span>
+        <span class="kanji">白銀 カオル</span>
+        <span class="roman">Kaoru Shirogane</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="character.html" data-page="character">Character</a>
+      <a href="voicebank.html" data-page="voicebank">Voicebank</a>
+      <a href="download.html" data-page="download">Download</a>
+      <a href="terms.html" data-page="terms">Terms</a>
+    </nav>
+  </div>
 </header>
 
 <main>
+  <section class="hero container">
+    <div class="hero-kanji" aria-hidden="true">白銀 カオル</div>
+    <div class="hero-body">
+      <p class="eyebrow"><span class="line"></span>Official UTAU Voicebank</p>
+      <h1>Kaoru Shirogane</h1>
+      <span class="roman-name">Kaoru Shirogane</span>
+      <p class="lead">A quiet, precise voice built for stillness as much as song — Kaoru sings in low light, favouring restraint over spectacle. This is his official home: character profile, voicebank downloads, and demos, all in one place.</p>
+      <div class="hero-actions">
+        <a href="voicebank.html" class="btn btn-primary">Listen to Voicebank Demos</a>
+        <a href="character.html" class="btn">Meet the Character</a>
+      </div>
+    </div>
+  </section>
 
-<section>
+  <section class="section container">
+    <div class="section-head">
+      <p class="eyebrow"><span class="line"></span>Explore</p>
+      <h2>Where to start</h2>
+    </div>
+    <div class="quick-nav">
+      <a class="quick-card fade-in" href="character.html">
+        <span class="num">01</span>
+        <h3>Character</h3>
+        <p>Profile, personality, and story.</p>
+      </a>
+      <a class="quick-card fade-in" href="voicebank.html">
+        <span class="num">02</span>
+        <h3>Voicebank</h3>
+        <p>Every release, with audio demos.</p>
+      </a>
+      <a class="quick-card fade-in" href="download.html">
+        <span class="num">03</span>
+        <h3>Download</h3>
+        <p>Official files and documentation.</p>
+      </a>
+      <a class="quick-card fade-in" href="terms.html">
+        <span class="num">04</span>
+        <h3>Terms</h3>
+        <p>Usage policy and credit rules.</p>
+      </a>
+    </div>
+  </section>
 
-<h2>白銀 カオル</h2>
-
-<p>
-Japanese UTAU Voicebank
-</p>
-
-<a href="download.html">
-<button>Download</button>
-</a>
-
-<a href="character.html">
-<button>Character</button>
-</a>
-
-</section>
-
-<section>
-
-<h2>Latest News</h2>
-
-<p>
-Version 1.0 Coming Soon
-</p>
-
-</section>
-
+  <section class="section container">
+    <div class="section-head">
+      <p class="eyebrow"><span class="line"></span>Latest</p>
+      <h2>News</h2>
+    </div>
+    <div class="news-list">
+      <div class="news-item fade-in">
+        <time datetime="2026-07-01">2026.07.01</time>
+        <div>
+          <span class="tag">Release</span>
+          <h3 style="margin:8px 0 4px;font-size:1.05rem;">CV Voicebank v1.0 is now available</h3>
+          <p class="muted" style="margin:0;">The first official release is live on the Download page, alongside the README and license.</p>
+        </div>
+      </div>
+      <div class="news-item fade-in">
+        <time datetime="2026-06-14">2026.06.14</time>
+        <div>
+          <span class="tag">Site</span>
+          <h3 style="margin:8px 0 4px;font-size:1.05rem;">Official website launched</h3>
+          <p class="muted" style="margin:0;">This site is now the primary source for character info, voicebanks, and terms of use.</p>
+        </div>
+      </div>
+      <div class="news-item fade-in">
+        <time datetime="2026-05-20">2026.05.20</time>
+        <div>
+          <span class="tag">Preview</span>
+          <h3 style="margin:8px 0 4px;font-size:1.05rem;">Power Voicebank announced</h3>
+          <p class="muted" style="margin:0;">A stronger, brighter variant is in development — details on the Voicebank page.</p>
+        </div>
+      </div>
+    </div>
+    <p class="placeholder-note">Sample news entries — replace with real dates and announcements as they happen.</p>
+  </section>
 </main>
 
-<footer>
-
-<p>
-© 2026 Kaoru Shirogane
-</p>
-
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="roman">© 2026 Kaoru Shirogane Project. Fan and independent works welcome under the <a href="terms.html">Terms of Use</a>.</p>
+    <div class="footer-links">
+      <a href="terms.html">Terms</a>
+      <a href="download.html">Downloads</a>
+    </div>
+  </div>
 </footer>
 
 <script src="js/script.js"></script>
-<script src="js/navbar.js"></script>
-
 </body>
-
 </html>
