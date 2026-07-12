@@ -494,3 +494,38 @@ p{ margin:0 0 1em; color: var(--ink); }
 /* utility */
 .fade-in{ opacity:0; transform: translateY(16px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
 .fade-in.visible{ opacity:1; transform:none; }
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+    position:relative;
+}
+
+.hero-body{
+    flex:1;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:520px;
+    height:auto;
+    display:block;
+
+    filter:
+        drop-shadow(0 0 35px rgba(90,140,255,.35));
+
+    transition:.4s ease;
+}
+
+.hero-image img:hover{
+    transform:translateY(-8px) scale(1.02);
+}
